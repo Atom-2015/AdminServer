@@ -20,6 +20,13 @@ router.get('/healthcheck' , MainControler.healthchecker);
 router.get('/detail' , MainControler.main)
 
 
+router.get('/userlist' , MainControler.UserList);
+
+
+router.get('/allreport' , MainControler.HandleAllReport);
+
+
+
 
  
 
